@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+  
+jobs:
+  sp-test:
+    runs-on: DemoRunner
+    name: Password_Policy
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+     
+      - name: Execute Python
+        run: python3 a.py
