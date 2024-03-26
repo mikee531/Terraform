@@ -3,7 +3,7 @@ on:
   
 jobs:
   sp-test:
-    runs-on: DemoRunner
+    runs-on: self-hosted
     name: Password_Policy
     steps:
       - name: Checkout repo
