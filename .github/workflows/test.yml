@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
      
       - name: Execute Python
-        run: python3 a.py
+        run: python3 a.py ${{ secrets.TEST_SLACK_TOKEN }}
